@@ -1,7 +1,6 @@
 <h2>Edit Keluarga</h2>
 
 <form action="<?php echo URL; ?>/keluarga/update" method="post">
-    <input type="hidden" name="id" value="<?php echo $data['row']['id']; ?>">
     <table>
     <tr>
             <td>NIK</td>
